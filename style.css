@@ -1,0 +1,49 @@
+.vertical-align{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.image img{
+	max-height: 90vh;
+	width: auto;
+}
+.image figcaption{
+	padding-top: 0.5em;
+	display: table-caption;
+	caption-side: bottom;
+	text-align: center;
+}
+.column figure{
+	display: table;
+}
+.overlay{
+	position: relative;
+	height: 90vh;
+}
+.overlay img{
+	position: absolute;
+}
+.dmpn{
+	z-index: 2;
+}
+.srt{
+	z-index: 3;
+	opacity: 0;
+}
+form .controls{
+	display: table-cell;
+	vertical-align: middle;
+	padding-bottom: 1em;
+}
+form .controls > *{
+	vertical-align: middle;
+}
+.lang-links{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.lang-links img{
+	height: 2em;
+	width: auto;
+}
